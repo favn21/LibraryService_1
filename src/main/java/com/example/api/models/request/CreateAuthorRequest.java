@@ -1,11 +1,11 @@
-package com.example.api.models;
+package com.example.api.models.request;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
-@Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class RequestModel {
+@Data
+public class CreateAuthorRequest {
     private String firstName;
     private String lastName;
 }
