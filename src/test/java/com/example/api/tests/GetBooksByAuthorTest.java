@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class GetBooksByAuthorTest extends BaseTest {
 
     @Test
-    @DisplayName("Тест получения книг по автору")
+    @DisplayName("Получение книг по автору")
     public void testGetBooksByAuthor() {
     }
 }

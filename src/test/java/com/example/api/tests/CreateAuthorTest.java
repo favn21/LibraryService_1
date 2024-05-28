@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class CreateAuthorTest extends BaseTest {
 
     @Test
-    @DisplayName("Тест успешного создания автора")
+    @DisplayName("Создание автора")
     public void testCreateAuthorSuccess() {
     }
 }
